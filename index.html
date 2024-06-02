@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>hit</title>
+        <link rel="stylesheet" href="hit.css">
+        <script src="hit.js" defer></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>Hit and Blow</h1>
+            <h2>？？？？？？？</h2>
+            <p>コンピュータが３つの数字を生成します。被りはありません。<br>
+                スタートボタンを押して始めてください。回答数は８回です。
+                Hは場所と数字が同じ時、Bはその数字はあるが場所が違う時です。go！ボタンで回答できます。<br>
+                やり直しはページを再読み込みしてください。
+            </p>
+            <button>スタート</button>
+            <br>
+            <input type="text"  name="Lkaitoubox" id="Lkaitoubox" size="5" value="L" >
+            <input type="text" name="Ckaitoubox" id="Ckaitoubox" size="5" value="C">
+            <input type="text" name="Rkaitoubox" id="Rkaitoubox" size="5" value="R">
+            <br>
+            <button id="kaitoubox">go!</button>
+             <a> H & B</a>
+                <!-- ここに解答が表示されていく -->
+                <ol id ="o-dori-">
+                    <ol id="wakabayasi"></ol><ol id="kasuga"></ol>
+                </ol>
+             <p id="message"></p>
+        </div>
+    
+     </body>
+       
+</html>
